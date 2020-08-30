@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-  new_hash = Hash.new
+  new_hash = {}
   new_hash[:key] = value
   return new_hash
 end
@@ -14,4 +14,4 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 end
 
-puts read_from_hash(hash_to_read ={location: 7, occupation: 5}, :occupation)
+puts my_hash_creator("what", 7)
