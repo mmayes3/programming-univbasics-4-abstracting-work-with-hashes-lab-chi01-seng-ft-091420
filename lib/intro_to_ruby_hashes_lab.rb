@@ -20,4 +20,4 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 end
 
-puts update_counting_hash(my_favorite_stream = { name: 'lofi hip hop radio', location: 'youtube' })
+puts update_counting_hash(my_favorite_stream = { name: 7, location: 7 }, :name)
