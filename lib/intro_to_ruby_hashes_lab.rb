@@ -14,4 +14,4 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 end
 
-puts my_hash_creator("what", 7)
+puts my_hash_creator(7, 7)
