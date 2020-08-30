@@ -20,3 +20,4 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 end
 
+puts update_counting_hash()
