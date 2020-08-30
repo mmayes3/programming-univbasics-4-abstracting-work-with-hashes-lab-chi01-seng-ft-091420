@@ -16,4 +16,4 @@ end
   # if the provided key is present, increment its value by 1
 end
 
-puts read_from_hash({location: 7, occupation: 5}, :occupation)
+puts read_from_hash(hash_to_read ={location: 7, occupation: 5}, :occupation)
